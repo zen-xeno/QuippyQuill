@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="./assets/vendor/fontawesome/css/all.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <title>Quippy Quill</title>
+    </head>
+    <body>
+      <header>
+<!--         <div class="top-bar">
+<span><i class="fa-solid fa-phone"></i>  09205877995</span>
+  <ul>
+    <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+  </ul>
+</div> -->
+        <nav class="nav-bar">
+          <div class="logo">
+            <img src="./assets/images/logo.png" alt="image">
+          </div>
+
+          <ul class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+             <li><a href="#">Services</a></li>
+             <li><a href="">Bookstore</a></li>
+             <li><a href="">Blog</a></li>
+             <li><a href="">About us</a></li>
+             <li><a href="">Contact</a></li>
+          </ul>
+          <div class="icons">
+          <li><a href=""><i class="fa fa-search"></i></a></li>
+          <li><a href=""><i class="fa fa-user"></i></a></li>
+                    <li><a href=""><i class="fa fa-heart"></i></a></li>
+ <li><a href=""><i class="fa fa-shopping-cart"></i></a></li>
+          </div>
+            <div class="fa-solid fa-bars" id="menu-icon"></div>
+        </nav>
+      </header>
+      <section id="banner">
+        <div class="banner">
+          <div class="banner-text">
+            <h2>The Path <span>to Publishing Excellence</span></h2>
+            <hr>
+            <h3>WINNING MARKETING STRATEGIES THAT AUTHORS DESERVE</h3>
+            <div class="social-icons">
+            <ul>
+            <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+          </ul>
+            </div>
+          </div>
+          <div class="banner-image">
+             <img src="./assets/images/landing1.png" alt="image">
+          </div>
+        </div>
+      </section>
+      <section id="banner-second">
+        <div class="banner-second-container">
+          <div class="banner-first-image">
+            <img src="./assets/images/bookdisplayed.png" alt="image">
+          </div>
+          <div class="banner-second-image">
+            <img src="./assets/images/bookfair.png" alt="image">
+          </div>
+        </div>
+      </section>
+      
+      
+      
+      
+       <footer>
+        <div class="footer-top">
+
+          <div class="footer-container">
+            <div class="logo-footer">
+            <img src="./assets/images/logo.png" alt="image">
+              <div class="Details">
+               <li><a href="#">Contact number</a></li>
+             <li> <a href="#">Email Address</a></li>
+             <li> <a href="#">Location</a></li>
+              </div>
+              
+            </div>
+            <div class="footer-details">
+              <span>Company Name</span>
+              <div class="company-info">
+                <li><a href="#">Contact number</a></li>
+             <li> <a href="#">Email Address</a></li>
+             <li> <a href="#">Location</a></li>
+              </div>
+              
+            </div>
+            <div class="footer-details">
+               <span>Menu</span>
+               <div class="menu-bar">
+                 <li><a href="#">About us</a></li>
+                 <li> <a href="#">Core Values</a></li>
+                 <li> <a href="#">FAQs</a></li>
+                 <li> <a href="#">Mission & Vision</a></li>
+               </div>
+                
+            </div>
+           
+            <div class="footer-details">
+              <span>Social links</span>
+              <div class="social">
+                 <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom-copyright">
+          <span>Copyright 2024 Nimbus. All Rights Reserved.</span>
+        </div>
+      </footer>
+      <script>
+      let menu = document.querySelector('#menu-icon');
+      let navbar = document.querySelector('.navbar');
+      menu.onclick = () =>{
+          menu.classList.toggle('fa-xmark');
+          navbar.classList.toggle('active');
+      };
+        const faqs = document.querySelectorAll(".faqbox");
+        faqs.forEach((faqbox) =>{
+          faqbox.addEventListener("click",() =>{
+            faqbox.classList.toggle("active");
+          });
+       });
+
+      </script>
+    </body>
+    </html>
