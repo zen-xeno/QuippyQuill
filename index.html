@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="./assets/vendor/fontawesome/css/all.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11.0.7/swiper-bundle.min.css">
 
     <title>Quippy Quill</title>
     </head>
@@ -34,13 +35,14 @@
              <li><a href="">About us</a></li>
              <li><a href="">Contact</a></li>
           </ul>
-          <div class="icons">
+                      <div class="icons">
           <li><a href=""><i class="fa fa-search"></i></a></li>
           <li><a href=""><i class="fa fa-user"></i></a></li>
                     <li><a href=""><i class="fa fa-heart"></i></a></li>
  <li><a href=""><i class="fa fa-shopping-cart"></i></a></li>
           </div>
             <div class="fa-solid fa-bars" id="menu-icon"></div>
+
         </nav>
       </header>
       <section id="banner">
@@ -73,8 +75,140 @@
           </div>
         </div>
       </section>
-      
-      
+      <section id="main-container">
+        <div class="container">
+          <div class="container-box-main">
+          <div class="container-box">
+             <h2>Marketing</h2>
+             <img src="./assets/images/bookfair.png" alt="image">
+          </div>
+          <div class="footer-content">
+              <p>this is the paragraph , this is the paragraph </p>
+              <a href="#"><i class="fa-solid fa-circle-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="conatainer-box-main">
+          <div class="container-box">
+             <h2>Marketing</h2>
+            <img src="./assets/images/bookfair.png" alt="image">
+          </div>
+          <div class="footer-content">
+              <p>this is the paragraph , this is the paragraph </p>
+               <a href="#"><i class="fa-solid fa-circle-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="swiper">
+        <div class="swiper-container Swiper">
+          <div class="swiper-content">
+            <div class="card-warapper swiper-wrapper">
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <div class="card-image">
+                    <img src="./assets/images/martin.png" alt="image">
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h3>Book Name</h3>
+                  <p>Author Name</p>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <div class="card-image">
+                    <img src="./assets/images/martin.png" alt="image">
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h3>Book Name</h3>
+                  <p>Author Name</p>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <div class="card-image">
+                    <img src="./assets/images/martin.png" alt="image">
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h3>Book Name</h3>
+                  <p>Author Name</p>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <div class="card-image">
+                    <img src="./assets/images/martin.png" alt="image">
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h3>Book Name</h3>
+                  <p>Author Name</p>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <div class="card-image">
+                    <img src="./assets/images/martin.png" alt="image">
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h3>Book Name</h3>
+                  <p>Author Name</p>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <div class="card-image">
+                    <img src="./assets/images/martin.png" alt="image">
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h3>Book Name</h3>
+                  <p>Author Name</p>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <div class="card-image">
+                    <img src="./assets/images/martin.png" alt="image">
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h3>Book Name</h3>
+                  <p>Author Name</p>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <div class="card-image">
+                    <img src="./assets/images/martin.png" alt="image">
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h3>Book Name</h3>
+                  <p>Author Name</p>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <div class="card-image">
+                    <img src="./assets/images/martin.png" alt="image">
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h3>Book Name</h3>
+                  <p>Author Name</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+        </div>
+      </section>
       
       
        <footer>
@@ -124,6 +258,7 @@
           <span>Copyright 2024 Nimbus. All Rights Reserved.</span>
         </div>
       </footer>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11.0.7/swiper-bundle.min.js"></script>
       <script>
       let menu = document.querySelector('#menu-icon');
       let navbar = document.querySelector('.navbar');
@@ -137,7 +272,33 @@
             faqbox.classList.toggle("active");
           });
        });
-
+var swiper = new Swiper(".swiper-content", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 1,
+      centerSlide: 'true',
+      fade:'true',
+      grabCursor: 'true',
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+},
+breakpoints:{
+  0:{
+    slidesPerView: 1,
+  },
+  768:{
+    slidesPerView: 2,
+  },
+  968:{
+    slidesPerView: 3,
+  },
+},
+});
       </script>
     </body>
     </html>
